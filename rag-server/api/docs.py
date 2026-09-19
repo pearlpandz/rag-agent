@@ -121,9 +121,9 @@ def list_docs_by_category(category_id: UUID, db_conn=Depends(get_db)):
 
 @router.post("/", response_model=DocOut, status_code=status.HTTP_201_CREATED)
 def create_doc(
-    name: str = Body(..., embed=True),
-    description: str = Body(..., embed=True),
-    category_id: Optional[UUID] = Body(None, embed=True),
+    name: str = Form(...),
+    description: str = Form(...),
+    category_id: Optional[UUID] = Form(None),
     file: UploadFile = File(None),
     db_conn=Depends(get_db),
 ):

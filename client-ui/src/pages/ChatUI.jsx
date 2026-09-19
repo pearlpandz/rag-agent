@@ -1,10 +1,11 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import ChatBox from "./ChatBox";
 import { useMcp } from "use-mcp/react";
+import { MCP_SSE_URL, OPENAI_API_KEY } from "../config";
 
 
 async function rephraseWithOpenAI({ userText, toolName, toolRaw }) {
-  const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
+  const apiKey = OPENAI_API_KEY;
 
   const instruction = [
     "You rewrite tool output into a clear, user-friendly answer.",
@@ -89,7 +90,7 @@ export default function ChatUI() {
     retry,          // Retry connection
     authenticate,   // Trigger authentication
   } = useMcp({
-    url: "http://localhost:8001/sse",
+    url: MCP_SSE_URL,
     clientName: "Localhost Client",
     autoReconnect: true
   });

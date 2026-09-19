@@ -1,8 +1,12 @@
 import psycopg2
 import os
-from psycopg2.extensions import register_adapter
+from pathlib import Path
 from psycopg2.extras import register_uuid
-import uuid
+from dotenv import load_dotenv
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(PROJECT_ROOT / ".env", override=True)
 
 # Register UUID adapter
 register_uuid()

@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import { Routes, Route, NavLink, Navigate } from "react-router-dom";
-import Homepage from "./pages/Home";
-import ChatUI from "./pages/ChatUI";
-import DocumentsList from "./pages/documents/List";
 import "./App.css";
+
+const Homepage = lazy(() => import("./pages/Home"));
+const ChatUI = lazy(() => import("./pages/ChatUI"));
+const DocumentsList = lazy(() => import("./pages/documents/List"));
 
 function App() {
     const [collapsed, setCollapsed] = useState(true);
@@ -27,13 +28,6 @@ function App() {
                         className={({ isActive }) => `nav-item ${isActive ? "active" : ""}`}>
                         <span className="icon">💬</span>
                         <span className="label">Chat</span>
-                    </NavLink>
-
-                    <NavLink
-                        to="/documents"
-                        className={({ isActive }) => `nav-item ${isActive ? "active" : ""}`}>
-                        <span className="icon">📄</span>
-                        <span className="label">Documents</span>
                     </NavLink>
                 </div>
 
@@ -81,13 +75,15 @@ function App() {
                 </header>
 
                 <main className="main">
-                    <Routes>
-                        <Route path="/" element={<Homepage />} />
-                        <Route path="/chat" element={<ChatUI />} />
-                        <Route path="/documents" element={<DocumentsList />} />
-                        <Route path="/documents/:categoryId" element={<DocumentsList />} />
-                        <Route path="*" element={<Navigate to="/" replace />} />
-                    </Routes>
+                    <Suspense fallback={<div className="route-loading">Loading...</div>}>
+                        <Routes>
+                            <Route path="/" element={<Homepage />} />
+                            <Route path="/chat" element={<ChatUI />} />
+                            <Route path="/documents" element={<DocumentsList />} />
+                            <Route path="/documents/:categoryId" element={<DocumentsList />} />
+                            <Route path="*" element={<Navigate to="/" replace />} />
+                        </Routes>
+                    </Suspense>
                 </main>
             </section>
         </div>

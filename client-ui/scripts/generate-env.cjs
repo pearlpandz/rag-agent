@@ -11,7 +11,7 @@ const envPath = path.resolve(cwd, '.env');
 
 let parsed = {};
 try {
-  const res = dotenv.config({ path: envPath });
+  const res = dotenv.config({ path: envPath, quiet: true });
   parsed = res.parsed || {};
   console.log('[env] Loaded .env with keys:', Object.keys(parsed));
 } catch (e) {
@@ -20,7 +20,7 @@ try {
 
 const runtime = {};
 for (const [k, v] of Object.entries(parsed)) {
-  if (k.startsWith('REACT_APP_')) {
+  if (k.startsWith('VITE_') || k.startsWith('REACT_APP_')) {
     runtime[k] = v;
   }
 }

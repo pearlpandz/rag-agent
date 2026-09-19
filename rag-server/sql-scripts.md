@@ -1,3 +1,11 @@
+> Prefer running the checked-in migration runner instead of copying SQL manually:
+>
+> ```bash
+> python migrations/run_migrations.py
+> ```
+>
+> The runnable SQL files live under `migrations/sql`.
+
 CREATE EXTENSION IF NOT EXISTS vector;
 
 -- 1. Create the documents table
@@ -70,4 +78,15 @@ CREATE TABLE IF NOT EXISTS public.Docs (
  createdBy text,
  updatedBy text
 );
-$$
+
+-- tickets table
+
+CREATE TABLE IF NOT EXISTS public.tickets (
+ ticket_id text PRIMARY KEY,
+ description text NOT NULL,
+ session text NOT NULL,
+ status text NOT NULL DEFAULT 'pending',
+ created_by text NOT NULL DEFAULT 'agent',
+ created_at timestamptz NOT NULL DEFAULT now(),
+ assigned_to text
+);

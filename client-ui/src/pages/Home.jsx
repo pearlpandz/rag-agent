@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import AddCategoryModal from "../components/AddCategoryModal";
+import { API_BASE_URL } from "../config";
 
 const Homepage = () => {
     const [categories, setCategories] = useState([]);
@@ -8,7 +9,7 @@ const Homepage = () => {
 
     const fetchCategories = async () => {
         try {
-            const response = await fetch("http://localhost:8001/api/categories");
+            const response = await fetch(`${API_BASE_URL}/api/categories`);
             const data = await response.json();
             setCategories(data);
         } catch (error) {

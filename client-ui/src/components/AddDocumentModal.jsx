@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 export default function AddDocumentModal({ isOpen, onClose, onDocumentAdded }) {
     const { categoryId } = useParams();
@@ -23,11 +24,13 @@ export default function AddDocumentModal({ isOpen, onClose, onDocumentAdded }) {
         const formData = new FormData();
         formData.append('name', name);
         formData.append('description', description);
-        formData.append('category_id', categoryId);
+        if (categoryId) {
+            formData.append('category_id', categoryId);
+        }
         formData.append('file', file);
 
         try {
-            const response = await fetch('http://localhost:8001/api/docs', {
+            const response = await fetch(`${API_BASE_URL}/api/docs`, {
                 method: 'POST',
                 body: formData,
             });

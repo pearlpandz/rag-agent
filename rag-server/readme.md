@@ -263,7 +263,10 @@ This module defines a FastAPI router for CRUD (Create, Read, Update, Delete) ope
       PG_PASSWORD=your_password
       OPENAI_API_KEY=your_openai_api_key
       ```
-    - Run the SQL scripts in `sql-scripts.md` to create the necessary tables and functions.
+    - Run the database migrations:
+      ```bash
+      python migrations/run_migrations.py
+      ```
 3.  **Run the server:**
     ```bash
     python main.py

@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import AddDocumentModal from "../../components/AddDocumentModal";
+import { API_BASE_URL } from "../../config";
 
 const defaultPageSize = 15;
 
@@ -48,7 +49,7 @@ export default function DocumentsList() {
         return;
       }
       try {
-        const response = await fetch(`http://localhost:8001/api/docs/category/${categoryId}`);
+        const response = await fetch(`${API_BASE_URL}/api/docs/category/${categoryId}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

@@ -2,6 +2,7 @@
   "name": "chat-ui",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -11,35 +12,16 @@
   "scripts": {
     "prestart": "node scripts/generate-env.cjs",
     "start": "vite",
-    "postinstall": "npx browserslist@latest --update-db || true",
     "prebuild": "node scripts/generate-env.cjs",
     "build": "vite build",
     "preview": "vite preview",
     "test": "echo \"No tests configured\" && exit 0"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "baseline-browser-mapping": "^2.11.23",
-    "dotenv": "^17.2.3",
-    "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.0",
-    "caniuse-lite": "^2.0.0"
+    "baseline-browser-mapping": "^2.11.23",
+    "caniuse-lite": "^1.0.30001810",
+    "dotenv": "^17.2.3",
+    "vite": "^5.0.0"
   }
 }
