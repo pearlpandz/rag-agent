@@ -1,0 +1,234 @@
+USER ONBOARDING KNOWLEDGE BASE - RAG DATASET
+
+
+CATEGORY: LOGIN
+
+ISSUE: Cannot login to my account
+QUESTION: I cannot login to my account. What should I do?
+ANSWER: If you're unable to login, please follow these steps: 1) Verify you're using the correct email address and password. 2) Check if Caps Lock is enabled. 3) Clear your browser cache and cookies. 4) Try using a different browser or incognito mode. 5) If the issue persists, use the "Forgot Password" option to reset your password. 6) If you still cannot login after trying these steps, contact our support team with your registered email address.
+
+ISSUE: Forgot password
+QUESTION: I forgot my password. How can I reset it?
+ANSWER: To reset your password: 1) Click on the "Forgot Password" link on the login page. 2) Enter your registered email address. 3) Check your email inbox (and spam folder) for a password reset link. 4) The link is valid for 24 hours. 5) Click the link and create a new password. Your password must be at least 8 characters long and include uppercase letters, lowercase letters, numbers, and special characters. 6) After resetting, login with your new password.
+
+ISSUE: Password reset link not received
+QUESTION: I requested a password reset but didn't receive the email. What should I do?
+ANSWER: If you haven't received the password reset email: 1) Wait for 10-15 minutes as there might be a delay. 2) Check your spam or junk folder. 3) Verify that you entered the correct email address. 4) Add noreply@yourdomain.com to your safe senders list. 5) Try requesting the reset link again. 6) If you still don't receive it after 30 minutes, contact our support team to verify your account status.
+
+ISSUE: Password reset link expired
+QUESTION: The password reset link shows as expired. What should I do?
+ANSWER: Password reset links expire after 24 hours for security reasons. To get a new link: 1) Go back to the login page. 2) Click "Forgot Password" again. 3) Enter your email address. 4) You'll receive a new password reset link. 5) Complete the password reset within 24 hours. 6) Make sure your device's system clock is set correctly, as this can affect link validation.
+
+ISSUE: Account locked after failed login attempts
+QUESTION: My account is locked after multiple failed login attempts. How do I unlock it?
+ANSWER: For security purposes, accounts are temporarily locked after 5 consecutive failed login attempts. You have two options: 1) Wait for 30 minutes and the account will automatically unlock. 2) Use the "Forgot Password" feature to reset your password immediately, which will also unlock your account. 3) If you need urgent access, contact our support team with your account details and they can manually unlock your account after identity verification.
+
+ISSUE: Invalid credentials error
+QUESTION: I keep getting "invalid credentials" error even though my password is correct. Why?
+ANSWER: If you're certain your credentials are correct but still getting this error: 1) Ensure there are no extra spaces before or after your email or password. 2) Type your password manually instead of copy-pasting. 3) Check if Caps Lock is on. 4) Verify you're logging into the correct platform (not a test or staging environment). 5) Clear your browser cache and cookies. 6) Try a different browser. 7) If the issue persists, reset your password to ensure you have the current correct password.
+
+ISSUE: Session timeout
+QUESTION: Why do I keep getting logged out automatically?
+ANSWER: Automatic logout occurs due to session timeout for security purposes. Your session expires after 30 minutes of inactivity. To maintain longer sessions: 1) Enable the "Remember Me" option when logging in (extends session to 30 days). 2) Avoid using "Remember Me" on shared or public computers. 3) Check your browser settings to ensure it's not automatically clearing cookies. 4) Disable browser extensions that clear session data. 5) If working on important tasks, save your work regularly. If you need extended session time for business purposes, contact your administrator.
+
+ISSUE: Two-factor authentication not working
+QUESTION: My two-factor authentication code is not working. What should I do?
+ANSWER: If your 2FA code isn't working: 1) Ensure your device time is synchronized correctly (required for time-based codes). 2) Use the most recent code, as they expire every 30-60 seconds. 3) Wait for a new code to generate if the current one is almost expired. 4) If using SMS, wait 2-3 minutes for delivery. 5) Try using backup codes provided during 2FA setup. 6) Check if the code is being sent to the correct phone number or email. 7) If you've lost access to your authentication method, contact support to temporarily disable 2FA after identity verification.
+
+ISSUE: Cannot login after email change
+QUESTION: I changed my email address and now cannot login. How do I fix this?
+ANSWER: If your email was changed at the company level: 1) Try logging in with your old email address first. 2) If that doesn't work, contact your IT administrator or HR department. 3) They can update your email in the system. 4) Alternatively, contact our support team with both your old and new email addresses, along with verification details like employee ID or previous order numbers. 5) Once updated, you'll receive a confirmation email at your new address. 6) All previous sessions will be logged out for security. 7) Update your email in profile settings after regaining access.
+
+ISSUE: Login from new device or location
+QUESTION: I'm trying to login from a new device/location and it's being blocked. What should I do?
+ANSWER: For security, logins from new devices or unusual locations may require additional verification: 1) Check your email for a security verification message. 2) Click the verification link or enter the provided code. 3) If you didn't receive the email, check your spam folder. 4) You may be asked to answer security questions. 5) Once verified, you can mark the device as trusted to avoid future verifications. 6) If you suspect unauthorized access attempts, immediately change your password and enable 2FA. 7) Contact support if legitimate access is being blocked.
+
+
+CATEGORY: SIGN UP
+
+ISSUE: How to create a new account
+QUESTION: How do I create a new account on your platform?
+ANSWER: To create a new account: 1) Visit our website and click on "Sign Up" or "Create Account". 2) Enter your full name, email address, and create a strong password. 3) Your password must be at least 8 characters with uppercase, lowercase, numbers, and special characters. 4) Agree to our Terms of Service and Privacy Policy. 5) Click "Create Account" or "Sign Up". 6) Check your email for a verification link. 7) Click the verification link within 48 hours to activate your account. 8) Once verified, login with your new credentials and complete your profile.
+
+ISSUE: Email verification not received
+QUESTION: I signed up but didn't receive the verification email. What should I do?
+ANSWER: If you haven't received your verification email: 1) Wait 10-15 minutes as emails may be delayed. 2) Check your spam, junk, or promotions folder. 3) Verify you entered the correct email address during signup. 4) Add noreply@yourdomain.com to your contacts or safe senders list. 5) Go to the login page and click "Resend verification email". 6) Enter your email address to receive a new verification link. 7) If using corporate email, check with your IT department if emails from our domain are being blocked. 8) Try signing up with a different email provider if the issue persists.
+
+ISSUE: Verification link expired
+QUESTION: My email verification link has expired. How do I get a new one?
+ANSWER: Email verification links expire after 48 hours for security. To get a new verification link: 1) Go to the login page. 2) Click on "Resend verification email" or "Verify email". 3) Enter the email address you used during signup. 4) A new verification link will be sent to your email. 5) Check your inbox and spam folder. 6) Click the new link within 48 hours. 7) If you continue having issues, contact support with your registration details.
+
+ISSUE: Username or email already exists
+QUESTION: I'm getting an error that my email/username already exists. What does this mean?
+ANSWER: This error means an account with this email or username already exists in our system. Here's what to do: 1) You may have created an account previously - try using the "Forgot Password" option. 2) Check if you used a different email variation (work email vs personal email). 3) If someone else may have used your email, contact support immediately. 4) For username conflicts, try adding numbers or underscores to make it unique. 5) Usernames are case-sensitive, so try different capitalization. 6) If you believe this is an error or potential fraud, contact our support team with identification documents for verification.
+
+ISSUE: Signup form validation errors
+QUESTION: I keep getting validation errors when trying to sign up. What are the requirements?
+ANSWER: Here are the signup requirements: 1) Email: Must be a valid email format (user@domain.com). 2) Password: Minimum 8 characters, maximum 20 characters. Must include at least one uppercase letter, one lowercase letter, one number, and one special character (!@#$%^&*). 3) Name: Full name required, minimum 2 characters. 4) Username (if applicable): 3-20 characters, letters, numbers, underscores, and hyphens only. No spaces or special characters. 5) Phone number (if required): Valid format with country code. 6) All required fields must be completed. 7) Age requirement: Must be 18 years or older. If you meet all requirements and still see errors, try a different browser or contact support.
+
+ISSUE: Account pending approval
+QUESTION: I completed signup but my account is pending approval. How long does this take?
+ANSWER: Some account types require administrator approval for security or compliance reasons. Here's what to expect: 1) Standard approval time is 24-48 business hours. 2) You'll receive an email notification once approved. 3) Business or enterprise accounts may take longer (up to 5 business days). 4) During business verification, we may request additional documents. 5) Check your email regularly for any information requests from our team. 6) Your account manager or HR administrator needs to approve your request. 7) To check status, contact support with your registration reference number. 8) Once approved, you'll receive login credentials and onboarding instructions.
+
+ISSUE: Cannot complete signup
+QUESTION: The signup process is not completing or I'm getting an error. What should I do?
+ANSWER: If you're having trouble completing signup: 1) Check your internet connection stability. 2) Try using a different browser (Chrome, Firefox, Safari, Edge). 3) Clear your browser cache and cookies. 4) Disable browser extensions or ad blockers temporarily. 5) Try using incognito or private browsing mode. 6) Ensure JavaScript is enabled in your browser. 7) Check if all required fields are filled correctly. 8) If using VPN, try disabling it. 9) Try from a different device or network. 10) If the issue persists, take a screenshot of the error and contact support with details about what step is failing.
+
+ISSUE: Referral code during signup
+QUESTION: How do I use a referral code during signup?
+ANSWER: To use a referral code: 1) During the signup process, look for a field labeled "Referral Code", "Promo Code", or "Invitation Code". 2) Enter the code exactly as provided (codes are case-sensitive). 3) Click "Apply" or "Verify" if there's a button next to the field. 4) The system will validate the code and show any associated benefits or discounts. 5) Complete the rest of the signup process. 6) Referral benefits are typically applied after account activation. 7) If the code shows as invalid, verify spelling and expiration date. 8) Some referral codes are for specific plan types or new users only. 9) Contact the person who gave you the code if it doesn't work. 10) You can also contact support to manually apply a valid referral code.
+
+ISSUE: Corporate or team signup
+QUESTION: How do I sign up for a corporate or team account?
+ANSWER: To create a corporate/team account: 1) Visit our business or enterprise signup page. 2) Select the "Business" or "Team" option during signup. 3) Provide your company name, size, and industry. 4) Enter your work email address (personal emails may not be accepted for business accounts). 5) Specify the number of users/licenses needed. 6) Complete the registration form with billing and company details. 7) You may need to provide business verification documents. 8) A sales representative will contact you within 24 hours to complete setup. 9) For large organizations (50+ users), schedule a consultation call. 10) Once approved, you'll receive admin access to invite team members. For immediate setup, call our business sales team.
+
+ISSUE: Social media signup
+QUESTION: Can I sign up using my Google, Facebook, or other social media account?
+ANSWER: Yes, we offer social login options for convenience: 1) On the signup page, look for "Sign up with Google", "Sign up with Facebook", etc. 2) Click on your preferred social login button. 3) You'll be redirected to authorize the connection. 4) Review the permissions requested and click "Allow" or "Authorize". 5) You'll be redirected back and your basic profile information will be imported. 6) Complete any additional required fields. 7) Your account is now created and linked to your social profile. 8) You can login using the social button or set a separate password. 9) You can unlink social accounts later in your profile settings. 10) Note: Corporate accounts typically require email/password signup for security compliance.
+
+
+CATEGORY: PROFILE UPDATE
+
+ISSUE: How to update profile information
+QUESTION: How do I update my profile information?
+ANSWER: To update your profile: 1) Login to your account. 2) Click on your profile picture or username (usually top-right corner). 3) Select "Profile Settings", "Account Settings", or "Edit Profile". 4) Update the fields you want to change (name, phone, address, bio, etc.). 5) Upload a new profile picture if desired (JPG, PNG, max 5MB). 6) Click "Save Changes" or "Update Profile" at the bottom. 7) You'll see a confirmation message once saved. 8) Some changes (like email) may require verification. 9) Profile updates are typically reflected immediately. 10) If updating sensitive information, you may be asked to re-enter your password.
+
+ISSUE: Cannot update email address
+QUESTION: I'm trying to change my email address but it's not working. Why?
+ANSWER: Changing your email address requires verification for security: 1) Go to Profile Settings > Account > Email. 2) Enter your new email address. 3) You'll need to enter your current password to confirm. 4) A verification link will be sent to your NEW email address. 5) Check the new email inbox (and spam folder). 6) Click the verification link within 24 hours. 7) Your email will be updated after verification. 8) You'll receive a notification at your old email for security. 9) If you don't have access to verify, contact support with identification. 10) For corporate accounts, email changes may require administrator approval.
+
+ISSUE: How to change password
+QUESTION: How do I change my password from within my account?
+ANSWER: To change your password: 1) Login to your account. 2) Go to Profile Settings or Account Settings. 3) Select "Security" or "Password" section. 4) Enter your current password. 5) Enter your new password (minimum 8 characters with uppercase, lowercase, numbers, and special characters). 6) Confirm your new password by entering it again. 7) Click "Change Password" or "Update Password". 8) You'll be logged out from all devices for security. 9) Login again with your new password. 10) Consider enabling two-factor authentication for additional security. Note: You cannot reuse your last 5 passwords.
+
+ISSUE: Profile picture upload issues
+QUESTION: I'm having trouble uploading my profile picture. What are the requirements?
+ANSWER: Profile picture requirements: 1) Supported formats: JPG, JPEG, PNG, GIF. 2) Maximum file size: 5MB. 3) Recommended dimensions: 400x400 pixels (square). 4) Minimum dimensions: 200x200 pixels. 5) If your image is too large, compress it using online tools. 6) If the wrong format, convert it to JPG or PNG. 7) Clear your browser cache if upload fails. 8) Try a different browser if issues persist. 9) Avoid images with text overlays or watermarks for best results. 10) Profile pictures are reviewed and inappropriate images will be removed. If you continue having issues after meeting these requirements, contact support.
+
+ISSUE: Update phone number
+QUESTION: How do I update my phone number?
+ANSWER: To update your phone number: 1) Go to Profile Settings > Contact Information. 2) Click "Edit" next to your phone number. 3) Enter your new phone number with country code. 4) Click "Send Verification Code". 5) You'll receive an SMS with a 6-digit code. 6) Enter the verification code within 10 minutes. 7) Click "Verify" to save your new phone number. 8) If you don't receive the SMS, click "Resend Code". 9) If using the number for 2FA, test it immediately. 10) If you no longer have access to the old number, contact support with identification for manual verification.
+
+ISSUE: Update billing or payment information
+QUESTION: How do I update my billing information in my profile?
+ANSWER: To update billing information: 1) Go to Profile Settings > Billing or Payment Methods. 2) Click "Add Payment Method" or "Edit" on existing method. 3) Enter new credit card details or select different payment option. 4) Update billing address if it changed. 5) For security, you may need to enter CVV or password. 6) Click "Save" or "Update". 7) Set as default payment method if desired. 8) Old payment methods can be removed after adding new one. 9) Billing name must match the name on your payment method. 10) For company accounts, ensure you have billing administrator permissions. Changes take effect immediately for new charges.
+
+ISSUE: Update notification preferences
+QUESTION: How do I change my notification preferences?
+ANSWER: To manage notification preferences: 1) Go to Profile Settings > Notifications or Communication Preferences. 2) You'll see categories like Email, SMS, Push, In-App notifications. 3) Toggle on/off for each notification type: Account updates, Security alerts, Marketing emails, Product updates, etc. 4) Set frequency preferences (Instant, Daily digest, Weekly summary). 5) Choose notification channels for each category. 6) Note: Some security notifications cannot be disabled. 7) Click "Save Preferences" or "Update". 8) Changes take effect immediately. 9) You can test notifications by clicking "Send test notification". 10) To unsubscribe from all marketing emails, click the unsubscribe link in any marketing email you received.
+
+ISSUE: Add or update business information
+QUESTION: How do I add or update my business/company information in my profile?
+ANSWER: To update business information: 1) Go to Profile Settings > Business Information or Company Profile. 2) Enter or update: Company name, Business registration number, Tax ID/VAT number, Company address, Industry/Sector, Company size. 3) Upload business verification documents if required. 4) Add company logo (recommended size: 500x500 pixels). 5) Update business contact information. 6) For invoicing purposes, ensure legal company name is correct. 7) Click "Save Changes". 8) Verification may take 24-48 hours for new business accounts. 9) You'll receive an email once business verification is complete. 10) Verified business accounts get access to enterprise features and invoicing.
+
+ISSUE: Delete or deactivate account
+QUESTION: How do I delete or deactivate my account?
+ANSWER: To deactivate or delete your account: 1) Understand the difference: Deactivation is temporary (can reactivate), Deletion is permanent (cannot be recovered). 2) Go to Profile Settings > Account > Delete Account or Deactivate Account. 3) You'll be asked to provide a reason (helps us improve). 4) For security, enter your password to confirm. 5) If you have active subscriptions, cancel them first or they'll continue billing. 6) Download your data before deletion (we provide 30 days to download). 7) Click "Deactivate" or "Delete Account". 8) You'll receive a confirmation email. 9) Deletion is processed within 30 days (grace period to change your mind). 10) To reactivate a deactivated account, simply login again within 90 days. For deleted accounts, you'll need to create a new account.
+
+ISSUE: Two-factor authentication setup
+QUESTION: How do I enable two-factor authentication on my profile?
+ANSWER: To enable two-factor authentication (2FA): 1) Go to Profile Settings > Security > Two-Factor Authentication. 2) Click "Enable 2FA" or "Setup 2FA". 3) Choose your method: Authenticator app (recommended), SMS, or Email. 4) For authenticator app: Download Google Authenticator or Authy, Scan the QR code shown, Enter the 6-digit code to verify. 5) For SMS: Enter your phone number, Verify with the code sent. 6) Save your backup codes in a secure location (needed if you lose access to 2FA). 7) Click "Enable" or "Activate". 8) Next login will require 2FA code. 9) You can add multiple 2FA methods for backup. 10) To disable 2FA, you'll need to enter a current code and password. We highly recommend keeping 2FA enabled for security.
+
+
+CATEGORY: OTP (ONE-TIME PASSWORD)
+
+ISSUE: OTP not received
+QUESTION: I'm not receiving the OTP code. What should I do?
+ANSWER: If you're not receiving OTP codes: 1) Wait 2-3 minutes as SMS/email delivery can be delayed. 2) Check your spam or junk folder for email OTPs. 3) Ensure your phone has good signal strength for SMS. 4) Verify the phone number/email in your profile is correct. 5) Try clicking "Resend OTP" (wait at least 60 seconds before resending). 6) Check if your phone's message inbox is full. 7) Add our sender number/email to your contacts. 8) Disable any SMS blocking or spam filtering apps temporarily. 9) Try receiving OTP via alternative method (email instead of SMS, or vice versa). 10) If still not receiving, contact support to verify your contact information and manually verify your action.
+
+ISSUE: OTP expired or invalid
+QUESTION: The OTP code I entered shows as expired or invalid. Why?
+ANSWER: OTP codes have security measures that can cause this: 1) OTP codes expire after 10 minutes for security. Request a new code if expired. 2) Ensure you're entering the most recent code if you requested multiple. 3) Type the code carefully - no spaces, all digits. 4) Codes are case-sensitive if alphanumeric. 5) Don't copy-paste as it may include extra characters. 6) Some codes are single-use only and expire after one attempt. 7) Wait 60 seconds before requesting a new code. 8) Clear browser cache if the issue persists. 9) Ensure your device's time is synchronized correctly. 10) If you've tried multiple codes, your account may be temporarily locked for security - wait 15 minutes or contact support.
+
+ISSUE: How long is OTP valid
+QUESTION: How long do I have to enter the OTP code before it expires?
+ANSWER: OTP code validity: 1) Standard validity: 10 minutes from generation. 2) After 10 minutes, the code becomes invalid and you must request a new one. 3) Codes are single-use - once used successfully, they cannot be reused. 4) If you request a new code, the previous code becomes invalid immediately. 5) For security reasons, this cannot be extended. 6) Make sure you're ready to complete the action before requesting the OTP. 7) Have the verification page open and ready when OTP arrives. 8) If you know you'll need more time, wait to request the OTP until you're ready. 9) Failed attempts don't extend the validity period. 10) After 5 failed attempts, you may need to wait 15 minutes before requesting a new code.
+
+ISSUE: OTP for different actions
+QUESTION: When do I need to enter an OTP code?
+ANSWER: OTP codes are required for these security-sensitive actions: 1) Login from new device or unusual location. 2) Changing email address. 3) Changing phone number. 4) Updating payment methods or billing information. 5) Large financial transactions. 6) Withdrawals or refunds. 7) Changing password (some cases). 8) Disabling two-factor authentication. 9) Deleting account. 10) Adding new users to business accounts. 11) Accessing sensitive personal information. 12) API key generation or reset. This protects your account from unauthorized access. You can reduce OTP requests by marking devices as trusted and enabling persistent login on secure devices.
+
+ISSUE: OTP sent to wrong number/email
+QUESTION: The OTP is being sent to a phone number/email I no longer have access to. What can I do?
+ANSWER: If OTP is sent to inaccessible contact information: 1) Try logging in with alternative methods if available (social login, backup email). 2) Click "Use different method" or "Send to backup email/phone" if available. 3) Contact support immediately with: Your account details, Proof of identity, New contact information you have access to. 4) Support will verify your identity through security questions or documents. 5) They can temporarily disable OTP or update contact information manually. 6) Once access is restored, immediately update your profile with current contact details. 7) Set up backup authentication methods. 8) Save backup codes in a secure location. 9) Keep your profile contact information current to avoid this issue. 10) Consider using authenticator apps instead of SMS for 2FA as they're not tied to a phone number.
+
+ISSUE: Multiple OTP requests
+QUESTION: Can I request multiple OTP codes? What happens to the old ones?
+ANSWER: Regarding multiple OTP requests: 1) Yes, you can request new OTP codes if needed. 2) Each new OTP code invalidates the previous one immediately. 3) Only the most recent code will work. 4) Wait at least 60 seconds between requests to avoid rate limiting. 5) You can request up to 5 OTP codes within 15 minutes. 6) After 5 attempts, you'll be temporarily blocked for 15 minutes. 7) This prevents automated attacks on your account. 8) If you're not receiving codes, requesting more won't help - check your contact method instead. 9) Each OTP request sends a new notification. 10) If you're repeatedly requesting codes due to entry errors, double-check you're entering them correctly before requesting new ones.
+
+ISSUE: OTP for transaction verification
+QUESTION: Why do I need to enter an OTP to complete my transaction?
+ANSWER: OTP for transactions is a security measure: 1) Protects against unauthorized transactions on your account. 2) Required for transactions above certain amounts (varies by account type). 3) Verifies that you're authorizing the transaction in real-time. 4) Prevents fraudulent charges if your account is compromised. 5) Required by payment regulations in many regions. 6) The OTP is sent to your registered phone/email. 7) You have 10 minutes to enter the code and complete the transaction. 8) If OTP is not entered, the transaction will be cancelled. 9) You'll need to restart the transaction and request a new OTP. 10) Trusted devices may have reduced OTP requirements after initial setup. This extra step ensures your account and funds are secure.
+
+ISSUE: Authenticator app vs SMS OTP
+QUESTION: What's the difference between authenticator app and SMS OTP? Which is better?
+ANSWER: Comparison of OTP methods: **Authenticator App (Recommended):** 1) Works offline - generates codes without internet or cell service. 2) More secure - not vulnerable to SIM swapping attacks. 3) Faster - instant code generation. 4) Free with no SMS charges. 5) Apps like Google Authenticator, Authy, Microsoft Authenticator. 6) Codes rotate every 30 seconds. 7) Can backup to cloud (Authy) or manually save QR code. **SMS OTP:** 1) Convenient - no additional app needed. 2) Accessible on any phone. 3) May have delivery delays. 4) Vulnerable to SIM swapping and interception. 5) May incur SMS charges when roaming. 6) Dependent on cellular coverage. **Recommendation:** Use authenticator app for primary 2FA, keep SMS as backup method. Save backup codes in a secure password manager. Enable multiple 2FA methods for redundancy.
+
+ISSUE: Lost access to OTP method
+QUESTION: I lost my phone/access to my authenticator app. How do I login now?
+ANSWER: If you've lost access to your OTP method: 1) Use backup codes if you saved them during 2FA setup - each code is single-use. 2) Try alternative OTP delivery method (if you set up backup email/phone). 3) Click "Use backup method" or "Can't access your code?" on the login page. 4) Contact support with: Account username/email, Recent transaction details, Security question answers, Government-issued ID for verification. 5) Support will verify your identity and temporarily disable 2FA. 6) You'll receive a secure temporary access code via email. 7) Login and immediately set up new 2FA method. 8) Generate and save new backup codes. 9) For authenticator apps: If you backed up to cloud (Authy), restore on new device. If using Google Authenticator without backup, you'll need to reconfigure. 10) Prevention: Always save backup codes, set up multiple 2FA methods, back up authenticator app if possible.
+
+ISSUE: OTP rate limiting
+QUESTION: I'm getting an error saying I've requested too many OTP codes. What does this mean?
+ANSWER: OTP rate limiting is a security feature: 1) You can request maximum 5 OTP codes within 15 minutes. 2) After 5 attempts, you're temporarily blocked for security. 3) Waiting period: 15-30 minutes depending on security settings. 4) This prevents brute force attacks and spam. 5) The countdown timer shows when you can try again. 6) While waiting, do NOT continue requesting codes as it extends the block. 7) Use this time to verify your contact information is correct. 8) Clear browser cache and try from incognito mode. 9) Ensure you're entering OTPs correctly to avoid wasting attempts. 10) If you're frequently hitting rate limits, contact support to investigate why codes aren't working. After the waiting period, you'll be able to request OTP again.
+
+
+CATEGORY: NOTIFICATION
+
+ISSUE: Not receiving email notifications
+QUESTION: I'm not receiving email notifications from your platform. How do I fix this?
+ANSWER: To troubleshoot missing email notifications: 1) Check your spam, junk, or promotions folder. 2) Add our email addresses to your safe senders list: noreply@yourdomain.com, notifications@yourdomain.com, support@yourdomain.com. 3) Check your notification preferences in Profile Settings > Notifications. 4) Ensure email notifications are enabled for the categories you want. 5) Verify your email address is correct in your profile. 6) Check if your email inbox is full. 7) Whitelist our domain with your email provider. 8) For corporate emails, check with IT if emails are being blocked. 9) Try adding a secondary email address and test notifications. 10) Send a test notification from notification settings. If still not receiving after these steps, contact support with your email provider details.
+
+ISSUE: Too many notifications
+QUESTION: I'm receiving too many notifications. How can I reduce them?
+ANSWER: To reduce notification frequency: 1) Go to Profile Settings > Notifications or Communication Preferences. 2) Toggle off unnecessary notification types. 3) Change frequency from "Instant" to "Daily Digest" or "Weekly Summary". 4) Disable categories you don't need: Marketing emails, Product updates, Partner offers, Social activity. 5) Keep essential notifications enabled: Security alerts, Account changes, Billing notifications, Transaction confirmations. 6) Adjust notification channels - perhaps keep email but disable push/SMS. 7) Set "Do Not Disturb" hours if available. 8) Unsubscribe from marketing emails using the link at bottom of emails. 9) For team notifications, adjust settings to only notify for mentions or direct messages. 10) Save your preferences - they take effect immediately.
+
+ISSUE: Push notification not working
+QUESTION: I'm not receiving push notifications on my phone or desktop. How do I enable them?
+ANSWER: To enable push notifications: **For Mobile (iOS/Android):** 1) Open device Settings > Apps > [App Name] > Notifications. 2) Enable "Allow Notifications". 3) Choose notification style: Banner, Alert, Badge. 4) Enable sound and vibration if desired. 5) In the app: Go to Settings > Notifications > Enable Push Notifications. **For Desktop/Browser:** 1) When prompted, click "Allow" for notifications. 2) If denied previously: Chrome: Settings > Privacy > Site Settings > Notifications > Allow for our site. Firefox: Options > Privacy > Permissions > Notifications > Settings. Safari: Preferences > Websites > Notifications > Allow. 3) Check that browser notifications aren't blocked at system level. 4) Ensure the app is allowed to send notifications. 5) Test by sending a test notification from settings. 6) Restart browser/app after enabling. 7) Clear browser cache if issues persist. 8) Check device's Do Not Disturb mode isn't blocking notifications. 9) Update app/browser to latest version. 10) Re-login to refresh notification permissions.
+
+ISSUE: Notification preferences not saving
+QUESTION: I change my notification preferences but they don't seem to save. Why?
+ANSWER: If notification preferences aren't saving: 1) Ensure you click "Save" or "Update" button after making changes. 2) Wait for confirmation message before leaving the page. 3) Check if you have permission to change settings (admin rights may be required). 4) Try using a different browser or incognito mode. 5) Clear browser cache and cookies. 6) Disable browser extensions that might interfere. 7) Check internet connection is stable when saving. 8) Don't navigate away from the page until changes are confirmed. 9) If using mobile app, ensure app has latest version. 10) Try changing one setting at a time and saving each individually. If problem persists, contact support with screenshots of the settings and error messages.
+
+ISSUE: Email notification delivery delay
+QUESTION: Email notifications are delayed. Sometimes I receive them hours later. Why?
+ANSWER: Email notification delays can occur due to: 1) Email server processing time - typically delivered within 5-15 minutes. 2) Your email provider's spam filtering may delay delivery. 3) High volume times may cause slight delays (peak business hours). 4) Corporate email servers may batch process incoming emails. 5) Gmail may categorize notifications under "Promotions" or "Updates" tabs. 6) Server maintenance can temporarily delay non-critical notifications. 7) ISP email services may have slower delivery than Gmail/Outlook. What you can do: 1) Critical notifications (security, transactions) are prioritized and sent immediately. 2) Add our domain to safe senders to improve delivery speed. 3) Use in-app notifications for real-time updates. 4) Enable push notifications for instant alerts. 5) Check notification timestamp vs received time to identify delays. If delays exceed 1 hour consistently, contact support.
+
+ISSUE: Notification language or timezone
+QUESTION: Notifications are in the wrong language or timezone. How do I change this?
+ANSWER: To update notification language and timezone: **For Language:** 1) Go to Profile Settings > Preferences > Language. 2) Select your preferred language from dropdown. 3) Click "Save". 4) All future notifications will be in selected language. 5) Supported languages: English, Spanish, French, German, Chinese, Japanese, Portuguese (check our current list). **For Timezone:** 1) Go to Profile Settings > Preferences > Timezone. 2) Select your timezone or let system detect automatically. 3) Notification timestamps will adjust accordingly. 4) Affects: Email timestamps, In-app notification times, Scheduled report delivery, Reminder notifications. 5) Changes take effect immediately. 6) For team accounts, each user can set individual timezone. 7) Transaction times always shown in local timezone. If your language isn't available, contact support to request it for future updates.
+
+ISSUE: Unsubscribe from marketing emails
+QUESTION: How do I unsubscribe from marketing or promotional emails?
+ANSWER: To unsubscribe from marketing emails: **Method 1 - Email Link:** 1) Open any marketing email from us. 2) Scroll to the bottom. 3) Click "Unsubscribe" or "Manage Preferences". 4) Confirm your unsubscribe request. 5) Changes effective within 48 hours. **Method 2 - Profile Settings:** 1) Login to your account. 2) Go to Profile Settings > Notifications > Email Preferences. 3) Uncheck "Marketing Communications" or "Promotional Emails". 4) Uncheck "Partner Offers" if you don't want third-party promotions. 5) Click "Save Preferences". **Important Notes:** 1) Unsubscribing doesn't affect important account notifications (security, billing, transactions). 2) You may still receive service-related emails. 3) Preference-based emails (product updates you opted into) require separate opt-out. 4) Can resubscribe anytime from same settings. 5) If still receiving after 48 hours, contact support.
+
+ISSUE: Notification for specific events only
+QUESTION: Can I choose to receive notifications only for specific types of events?
+ANSWER: Yes, you can customize notifications by event type: 1) Go to Profile Settings > Notifications. 2) You'll see categories like: Account Activity (login, password changes), Security Alerts (suspicious activity, new device), Transactions (purchases, refunds, receipts), Billing (payment due, failed payments, renewals), Content Updates (new features, updates), Social Activity (mentions, messages, follows), System Notifications (maintenance, downtime). 3) For each category, choose: Email, Push notification, SMS, In-app notification, None. 4) Set frequency: Instant, Hourly digest, Daily digest, Weekly summary. 5) Enable only critical notifications you need. 6) Advanced filters: Minimum transaction amount, Specific transaction types, Severity levels (info, warning, critical). 7) Click "Save Preferences". 8) Test with "Send Test Notification" button. 9) Update anytime as your needs change. 10) Some security notifications can't be disabled for account protection.
+
+ISSUE: Notification for team or shared accounts
+QUESTION: How do notifications work for team or shared accounts? Can I control what team members are notified about?
+ANSWER: Team notification management: **For Administrators:** 1) Go to Team Settings > Notifications or Team Management. 2) Set default notification rules for all team members. 3) Configure role-based notifications: Admins receive billing/account changes, Users receive only activity related to their work, Viewers receive minimal notifications. 4) Set up notification groups for different teams/projects. 5) Control who gets notified for: New user additions, Billing changes, Security alerts, Project updates, Comments and mentions. **For Individual Team Members:** 1) Each member can customize personal preferences in their profile. 2) Personal settings override team defaults (unless admin restricts this). 3) Members always receive notifications about: Direct mentions, Assigned tasks, Security alerts affecting their account. **Best Practices:** 1) Reduce noise by notifying only relevant team members. 2) Use @mentions for important alerts. 3) Set up escalation rules for critical alerts. 4) Regular team leads get consolidated team activity digests. Contact your administrator to adjust team notification policies.
+
+ISSUE: Missed important notification
+QUESTION: I missed an important notification. Can I see a history of all notifications sent to me?
+ANSWER: To access notification history: 1) Click the notification bell icon (usually top-right corner). 2) Click "See All" or "View All Notifications". 3) You'll see a chronological list of all recent notifications. 4) Filter by: Type (security, billing, activity), Date range, Read/Unread status, Priority level. 5) Search for specific notifications using keywords. 6) Notification history typically kept for 90 days. 7) Click any notification to see full details. 8) Mark as read/unread or delete from history. 9) Critical notifications (security, legal) may be stored longer. **For Email Notifications:** 1) Search your email inbox for emails from our domain. 2) Check spam/trash folders for missed emails. 3) Download notification archive: Go to Settings > Download Data > Select "Notification History". **Preventing Missed Notifications:** 1) Enable multiple notification channels (email + push). 2) Set up notification forwarding to secondary email. 3) Enable sound/vibration for critical alerts. 4) Review notification center daily.
+
+ISSUE: Browser blocking notifications
+QUESTION: My browser seems to be blocking your notifications. How do I allow them?
+ANSWER: To allow notifications in different browsers: **Google Chrome:** 1) Click the lock icon left of URL. 2) Click "Site Settings". 3) Find "Notifications" and select "Allow". 4) Or go to Settings > Privacy and Security > Site Settings > Notifications. 5) Find our website and change to "Allow". **Mozilla Firefox:** 1) Click the lock icon left of URL. 2) Click "Connection secure" > "More information". 3) Go to Permissions > Notifications > Allow. 4) Or Settings > Privacy & Security > Permissions > Notifications > Settings. 5) Find our site and select "Allow". **Safari:** 1) Safari > Preferences > Websites > Notifications. 2) Find our website and select "Allow". **Microsoft Edge:** 1) Click the lock icon > Permissions > Notifications > Allow. 2) Or Settings > Cookies and site permissions > Notifications. **After Allowing:** 1) Refresh the page. 2) You may see a permission prompt - click "Allow". 3) Test by sending notification from app settings. 4) Check system-level notification settings as well (Windows Settings or macOS System Preferences).
+
+CATEGORY: ACCOUNT SECURITY
+
+ISSUE: Suspicious account activity
+QUESTION: I see login activity or actions I didn't perform. What should I do?
+ANSWER: If you notice suspicious activity: **Immediate Actions:** 1) Change your password immediately. 2) Go to Settings > Security > Active Sessions and end all sessions. 3) Review recent account activity/login history. 4) Enable two-factor authentication if not already enabled. 5) Check for unauthorized email or phone number changes. 6) Review any financial transactions or purchases made. **Investigation Steps:** 1) Check "Login History" for unfamiliar locations or devices. 2) Look for emails about password changes you didn't make. 3) Check if any personal information was modified. 4) Review connected apps and revoke suspicious access. 5) Check for forwarding rules in email settings. **Contact Support:** 1) Report the suspicious activity immediately. 2) Provide details: dates, times, types of activity. 3) Support will investigate and secure your account. 4) You may need to verify your identity. 5) Support can help identify if activity was actually yours. **Prevention:** 1) Use strong, unique passwords. 2) Never share your password. 3) Don't click suspicious email links. 4) Keep 2FA enabled. 5) Review security regularly.
+
+ISSUE: Account security best practices
+QUESTION: What are the best practices to keep my account secure?
+ANSWER: Follow these security best practices: **Password Security:** 1) Use a strong password: minimum 12 characters, mix of uppercase, lowercase, numbers, special characters. 2) Never reuse passwords across different sites. 3) Use a password manager to generate and store passwords. 4) Change password if you suspect it's compromised. 5) Don't share your password with anyone. **Two-Factor Authentication:** 1) Enable 2FA using authenticator app (most secure). 2) Save backup codes in a secure location. 3) Set up multiple 2FA methods for redundancy. **Account Monitoring:** 1) Review login activity regularly. 2) Check active sessions monthly and end unknown sessions. 3) Monitor notification emails for unauthorized changes. 4) Set up alerts for security events. **General Security:** 1) Keep email account secure (it's your recovery method). 2) Be cautious of phishing emails - verify sender before clicking links. 3) Don't login on public/shared computers. 4) Use secure, private networks (avoid public WiFi for sensitive actions). 5) Keep devices and browsers updated. 6) Revoke access for apps you no longer use. 7) Don't save passwords on shared devices. Review security settings quarterly.
+
+ISSUE: Secure account recovery
+QUESTION: How can I ensure I can recover my account if locked out?
+ANSWER: Set up these recovery options: **Primary Recovery Methods:** 1) Verified email address - keep current and accessible. 2) Verified phone number - keep active. 3) Backup email address - add a secondary email. 4) Security questions - set up with memorable answers (don't use easily guessable info). **Two-Factor Authentication Backup:** 1) Save backup codes when setting up 2FA. 2) Print and store codes securely offline. 3) Set up multiple 2FA methods (authenticator + SMS). 4) Back up authenticator app if supported (Authy allows cloud backup). **Additional Security:** 1) Keep profile information current. 2) Add trusted devices for faster recovery. 3) Set up trusted contacts (some platforms offer this). 4) Keep identification documents handy for identity verification. **Recovery Information Storage:** 1) Use a password manager for backup codes. 2) Store recovery info separate from password. 3) Keep physical copy in secure location. 4) Don't share recovery information with others. **Test Recovery Process:** 1) Periodically verify recovery email/phone works. 2) Ensure you remember security question answers. 3) Keep backup codes accessible. Regular review ensures smooth recovery if needed. 
