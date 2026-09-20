@@ -28,25 +28,22 @@ async function rephraseWithOpenAI({ userText, toolName, toolRaw }) {
   ].join("\n");
 
   if (!apiKey) {
-    // Local fallback: very naive rephrase
     const raw = String(toolRaw || "").trim();
     const first = raw.split("\n").slice(0, 12).join("\n");
-    return [
-      "(Rephrased locally without OpenAI key)",
-      "",
-      first
-    ].join("\n");
+    return ["(Rephrased locally without API key)", "", first].join("\n");
   }
 
   try {
-    const resp = await fetch("https://api.openai.com/v1/chat/completions", {
+    const resp = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "HTTP-Referer": window.location.origin,
+        "X-Title": "RAG Client UI"
       },
       body: JSON.stringify({
-        model: "gpt-4o-mini",
+        model: import.meta.env.VITE_CHAT_MODEL || "openrouter/free",
         messages: [
           { role: "system", content: instruction },
           { role: "user", content }
@@ -57,7 +54,7 @@ async function rephraseWithOpenAI({ userText, toolName, toolRaw }) {
 
     if (!resp.ok) {
       const txt = await resp.text();
-      throw new Error(`OpenAI API error: ${resp.status} ${txt}`);
+      throw new Error(`OpenRouter API error: ${resp.status} ${txt}`);
     }
     const data = await resp.json();
     const answer = data?.choices?.[0]?.message?.content?.trim();

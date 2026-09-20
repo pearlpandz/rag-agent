@@ -26,6 +26,7 @@ from storage.db import DB_CONFIG
 MIGRATIONS = (
     "001_create_schema.sql",
     "002_seed_data.sql",
+    "003_switch_embeddings_to_nvidia.sql",
 )
 
 

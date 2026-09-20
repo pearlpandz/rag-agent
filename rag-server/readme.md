@@ -261,12 +261,21 @@ This module defines a FastAPI router for CRUD (Create, Read, Update, Delete) ope
       PG_DB=postgres
       PG_USER=postgres
       PG_PASSWORD=your_password
-      OPENAI_API_KEY=your_openai_api_key
+      OPENROUTER_API_KEY=your_openrouter_api_key
+      EMBEDDING_MODEL=nvidia/llama-nemotron-embed-vl-1b-v2:free
+      EMBEDDING_DIMENSIONS=2048
       ```
     - Run the database migrations:
       ```bash
       python migrations/run_migrations.py
       ```
+    - Migration `003_switch_embeddings_to_nvidia.sql` clears existing 1536-dimensional
+      vectors. Reprocess or re-upload every document after running it so search results
+      use the new 2048-dimensional embeddings.
+    - The 2048-dimensional vector is queried without an HNSW index because pgvector
+      limits HNSW indexes to 2000 dimensions. Exact cosine search is suitable for the
+      current knowledge-base size; use a lower-dimensional model or a half-precision
+      vector strategy if the dataset later needs an approximate index.
 3.  **Run the server:**
     ```bash
     python main.py

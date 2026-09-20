@@ -14,15 +14,13 @@ CREATE TABLE documents (
 id SERIAL PRIMARY KEY,
 doc_id TEXT NOT NULL,
 chunk TEXT NOT NULL,
-embedding VECTOR(1536), -- match your embedding dimension (e.g., 768, 1024, 1536)
+embedding VECTOR(2048), -- NVIDIA Llama Nemotron Embed VL 1B V2 dimension
 metadata JSONB,
 created_at TIMESTAMP DEFAULT NOW()
 );
 
--- 2. Create an index for faster vector search
-
-CREATE INDEX ON documents USING ivfflat (embedding vector_l2_ops)
-WITH (lists = 100);
+-- 2. 2048-dimensional vectors exceed pgvector's approximate-index dimension
+-- limits, so the current implementation uses exact cosine search.
 
 -- Optional: speed up metadata filtering
 CREATE INDEX ON documents (doc_id);
